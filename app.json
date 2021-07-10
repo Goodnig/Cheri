@@ -1,0 +1,57 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/category/index",
+        "pages/goods_list/index",
+        "pages/goods_detail/index",
+        "pages/cart/index",
+        "pages/collect/index",
+        "pages/order/index",
+        "pages/search/index", 
+        "pages/user/index",
+        "pages/feedback/index",
+        "pages/login/index",
+        "pages/auth/index", 
+        "pages/pay/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#eb4450",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "color": "#999",
+        "selectedColor": "#1b1c1d",
+        "backgroundColor": "#fafafa",
+        "position": "bottom",
+        "borderStyle": "black",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "icon/Homehomepagemenu.png",
+                "selectedIconPath": "icon/Homehomepagemenu_1.png"
+            },
+            {
+                "pagePath": "pages/category/index",
+                "text": "分类",
+                "iconPath": "icon/leimupinleifenleileibie.png",
+                "selectedIconPath": "icon/leimupinleifenleileibie2.png"
+            },
+            {
+                "pagePath": "pages/cart/index",
+                "text": "购物车",
+                "iconPath": "icon/chazhao.png",
+                "selectedIconPath": "icon/iconfind.png"
+            },
+            {
+                "pagePath": "pages/user/index",
+                "text": "我的",
+                "iconPath": "icon/wode.png",
+                "selectedIconPath": "icon/wodedangxuan.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}
